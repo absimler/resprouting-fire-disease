@@ -1,9 +1,7 @@
 # resprouting-fire-disease: 
 Respository for code and analyses from manuscript entitled: "Novel disturbance interactions between fire and an emerging disease impact survival and growth of resprouting trees"
 
-Simler_etal_resprouters_fire_disease_setup.R -- contains data organization
-
-Simler_etal_resprouters_fire_disease_analyses.R -- contains all analyses included in the manuscript
+Simler_etal_resprouters_fire_disease_allanalyses.R -- contains all analyses included in the manuscript
 
 The following are separate documents containing stan models used in the analyses:
 
@@ -18,6 +16,10 @@ nullresprouting.stan -- null model for resprouting vigor analysis
 fullresprouting.stan -- full model for resprouting vigor analysis
 
 fullresproutinghost.stan -- full model with P. ramorum-related covariates for resprouting vigor analysis
+
+Additional models for comparison to unburned plots:
+unburnedresprouting.stan
+unburnedresproutinghost.stan
 
 
 
